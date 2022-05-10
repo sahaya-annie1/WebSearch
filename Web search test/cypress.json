@@ -1,0 +1,18 @@
+{
+   
+    "chromeWebSecurity": false,
+    "baseUrl": "https://www.google.com",
+    "pageLoadTimeout":120000,
+
+
+    
+    "reporterOptions":{
+        "reportDir":"cypress/reports",
+        "reportFilename":"testresults",
+        "overwrite":true,
+        "html":true,
+        "json":true,
+        "charts":true 
+    },
+    "testFiles": "**/*.feature"
+}

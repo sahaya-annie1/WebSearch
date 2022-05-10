@@ -1,0 +1,53 @@
+[
+  {
+    "description": "    To perform a single Google test to search for Dogs",
+    "keyword": "Feature",
+    "name": "Google Search for Dogs",
+    "line": 1,
+    "id": "google-search-for-dogs",
+    "tags": [],
+    "uri": "search-dogs.feature",
+    "elements": [
+      {
+        "id": "google-search-for-dogs;simple-google-test",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Simple Google Test",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to Google",
+            "result": {
+              "status": "passed",
+              "duration": 1219000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I search for dogs",
+            "result": {
+              "status": "passed",
+              "duration": 3424000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I expect to see results for dogs",
+            "result": {
+              "status": "passed",
+              "duration": 43000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
